@@ -1,7 +1,5 @@
 // LED.c
 // Test code for reflectance sensors. 
-// Created by TYLOR FRANCA
-// Modified by Min He
 // 4/22/2025
 // California State University, Long Beach
 #include "tm4c123gh6pm.h"
@@ -18,4 +16,5 @@ void LED_Init(void){
 	GPIO_PORTF_AFSEL_R &= ~LED_PINS;        // no alternate function
   GPIO_PORTF_DEN_R |= LED_PINS;          	// enable digital pins PF3-PF1        
 }
+
 
