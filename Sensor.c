@@ -1,7 +1,5 @@
 // Sensor.c
 // Test code for reflectance sensors. 
-// Created by TYLOR FRANCA
-// Modified by Min He
 // 4/22/2025
 // California State University, Long Beach
 
